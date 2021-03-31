@@ -1,0 +1,3 @@
+tellraw @a [{"text":"To start, first type ","color":"gold"},{"text":"/tag {speedrunner} add Speedrunner ","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click me!"}]},"clickEvent":{"action":"suggest_command","value":"/tag @r add Speedrunner"}}]
+tellraw @a [{"text":"and then type","color":"gold"},{"text":" /function start:start","color":"aqua","hoverEvent":{"action":"show_text","contents":[{"text":"Click Me!"}]},"clickEvent":{"action":"suggest_command","value":"/function start:start"}}]
+tellraw @a [{"text": "Hint: Click on the text","color": "green"}]
